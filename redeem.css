@@ -1,0 +1,120 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.img-Bg {
+  background-image: url(./popup\ and\ redeem\ task/mainBg.png);
+  background-size: 100% 100%;
+  width: 74vw;
+  height: 96vw;
+  margin: 0 auto;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1vw;
+  background-color: #3b4d61;
+}
+.container-1 {
+  display: flex;
+  margin-top: 20vw;
+  gap: 2vw;
+  overflow: hidden;
+}
+.container-2 {
+  display: flex;
+  gap: 2vw;
+}
+.container-3 {
+  display: flex;
+  gap: 2vw;
+}
+.reward-1 {
+  background-image: url(/popup\ and\ redeem\ task/imgBg.png);
+  background-size: 100% 100%;
+  width: 20vw;
+  height: 20vw;
+  opacity: 0.5;
+}
+.button-1 img {
+  width: 20vw;
+  height: 10vw;
+  margin-top: 5vw;
+}
+.reward-1-Data {
+  display: flex;
+  font-size: 2vw;
+  align-items: center;
+  justify-content: center;
+  padding-top: 1.5vw;
+  gap: 0.5vw;
+  font-family: math;
+}
+.ticket-1 img {
+  width: 3vw;
+  height: 2.5vw;
+}
+.svip {
+  width: 14vw;
+  height: 14vw;
+  margin: 0.3vw 2.5vw;
+}
+.active {
+  opacity: 1;
+}
+.popUp {
+  background-color: rgba(0, 0, 0, 0.7);
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.closeBtn img {
+  width: 6vw;
+  height: 6vw;
+  position: absolute;
+  top: 40vw;
+  right: 10vw;
+  z-index: 88;
+}
+.score {
+  font-size: 2vw;
+  color: rgb(22 28 4);
+  font-family: cursive;
+}
+.popup-Container {
+  position: relative;
+  z-index: 8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 80vw;
+  height: 80vw;
+  background: center/contain no-repeat url("/popup and redeem task/popUp.png");
+}
+.popup-single {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1vw;
+  position: relative;
+}
+.score-img {
+  width: 10vw !important;
+  height: 10vw !important;
+}
+.popup-main {
+  margin-top: 16vw;
+  display: flex;
+  justify-content: center;
+  gap: 2vw;
+  flex-wrap: wrap;
+}
